@@ -1,25 +1,24 @@
-
-
-
-
-
-
-
-
-
 /* MY CSS CODE */
 
 body{
     color: white;
 }
 
+header{
+    background-color: #2c3e50;
+    height: 60px;
+}
 
 .green-bg{
     background-color: #1abc9c;
 }
 
+.text-green{
+    color:  #1abc9c;
+}
+
 .img-freelancer{
-    height: 250px;
+    height: 200px;
 }
 
 .star-content{
@@ -31,9 +30,22 @@ body{
 }
 
 
+.social-icons{
+    height: 55px;
+    padding: .25rem 0;
+    margin-top: .25rem;
+}
+
+.contact-me{
+    height: 400px;
+}
+
+
 .list-freelancer{
-    list-style-type: "-";
+    list-style-type: " - ";
     gap: 0.7rem;
+    margin-right: 2rem;
+    font-size: 0.9rem;
 }
 .list-freelancer li:first-child{
     list-style-type: none;
@@ -73,4 +85,24 @@ h2{
 }
 .lower-footer{
     background-color: #2c3e50;
+}
+
+
+/* SOLUZIONI RESPONSIVE */
+
+
+/* da sm 576 a  md 768px */
+
+@media screen and (min-width:768px) {
+    .about-freelancer{
+        padding: 0 0rem !important;
+    }
+}
+
+/* da md 768 a lg 992px */
+
+@media screen and (min-width:992px) {
+    .location{
+        padding: 0 3rem !important;
+    }
 }
