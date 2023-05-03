@@ -67,3 +67,10 @@ body{
 h2{
     color: #333333;
 }
+
+.upper-footer{
+    background-color: #3a546d;
+}
+.lower-footer{
+    background-color: #2c3e50;
+}
