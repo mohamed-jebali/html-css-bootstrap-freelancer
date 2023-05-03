@@ -8,3 +8,58 @@
 
 
 /* MY CSS CODE */
+
+body{
+    color: white;
+}
+
+
+.green-bg{
+    background-color: #1abc9c;
+}
+
+.img-freelancer{
+    height: 250px;
+}
+
+.star-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+}
+
+
+.list-freelancer{
+    list-style-type: "-";
+    gap: 0.7rem;
+}
+.list-freelancer li:first-child{
+    list-style-type: none;
+}
+
+.line{
+    height: 3px;
+    width: 75px;
+    background-color: white;
+}
+
+.line-black{
+    height: 3px;
+    width: 75px;
+    background-color: black;
+}
+
+.color-white{
+    background-color: white;
+}
+
+
+.color-black{
+    color: black;
+}
+
+h2{
+    color: #333333;
+}
