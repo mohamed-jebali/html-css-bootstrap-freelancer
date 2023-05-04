@@ -115,4 +115,11 @@ nav{
     .location{
         padding: 0 3rem !important;
     }
+    .wrapper-form{
+        width: 65%;
+    }
+    .wrapper-about{
+        width: 65%;
+    }
+
 }
