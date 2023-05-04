@@ -87,6 +87,15 @@ h2{
     background-color: #2c3e50;
 }
 
+input{
+    border: none;
+}
+
+textarea{
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+}
 
 nav{
     background-color: #2c3e50;
@@ -95,6 +104,27 @@ nav{
     width: 100%;
     top: 0; */
 }
+
+.divider-line{
+    height: 1px;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin: 0.75rem 0;
+    position: relative;
+    left: 5px;
+}
+
+input::placeholder,textarea {
+    color: #2c3e50;
+    opacity: 1;
+    font-weight: 450;
+  }
+
+textarea::placeholder{
+    opacity: 1;
+}
+  
+
 
 /* .navbar-brand{
     color: white;
@@ -109,6 +139,9 @@ nav{
     .about-freelancer{
         padding: 0 0rem !important;
     }
+    .wrapper-form{
+        width: 65%;
+    }
 }
 
 /* da md 768 a lg 992px */
@@ -116,9 +149,6 @@ nav{
 @media screen and (min-width:992px) {
     .location{
         padding: 0 3rem !important;
-    }
-    .wrapper-form{
-        width: 65%;
     }
     .wrapper-about{
         width: 65%;
