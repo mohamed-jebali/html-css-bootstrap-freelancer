@@ -145,27 +145,41 @@
 
     <!-- CONTACT ME -->
     <section>
-        <div class="container text-center contact-me">
-            <div class="row">
-                    <div class="col-12 color-black py-4 px-5 text-start">
-                        <h2 class="mb-4 text-center">
-                            CONTACT ME
-                        </h2>
-                        <div class="star-content mb-3">
-                            <div class="line-black"></div>
-                            <i class="fa-solid fa-star fa-2x"></i>
-                            <div class="line-black"></div>
+        <div class="wrapper-form">
+            <div class="container-fluid text-center contact-me">
+                <div class="row">
+                        <div class="col-12 color-black py-4 px-5 text-start">
+                            <h2 class="mb-4 text-center">
+                                CONTACT ME
+                            </h2>
+                            <div class="star-content mb-3">
+                                <div class="line-black"></div>
+                                <i class="fa-solid fa-star fa-2x"></i>
+                                <div class="line-black"></div>
+                            </div>
+                            <form action="">
+                            <div class="mb-1">
+                                <label for="name" class="form-label"></label>
+                                <input type="name" class="form-control" id="name" placeholder="Name" required>
+                              </div>
+                              <div class="mb-1">
+                                <label for="email" class="form-label"></label>
+                                <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                              </div>
+                              <div class="mb-1">
+                                <label for="tel" class="form-label"></label>
+                                <input type="tel" class="form-control" id="tel" placeholder="Phone Number" maxlength="9" required>
+                              </div>
+                              <div class="mb-3">
+                                <label for="message" class="form-label"></label>
+                                <textarea class="form-control" id="message" placeholder="Message" rows="5"></textarea>
+                              </div>
+                            <div>
+                              <button type="submit" class="btn green-bg text-light">Send</button>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="Name" class="form-label"></label>
-                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label"></label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
-                          </div>
-                          <button type="button" class="btn green-bg text-light">Send</button>
-                    </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>

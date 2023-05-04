@@ -36,11 +36,6 @@ header{
     margin-top: .25rem;
 }
 
-.contact-me{
-    height: 400px;
-}
-
-
 .list-freelancer{
     list-style-type: " - ";
     gap: 0.7rem;
@@ -67,6 +62,10 @@ header{
     background-color: white;
 }
 
+.wrapper-form{
+    width: 85%;
+    margin: 0 auto;
+}
 
 .color-black{
     color: black;
