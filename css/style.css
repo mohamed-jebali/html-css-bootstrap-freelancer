@@ -11,6 +11,7 @@ header{
 
 .green-bg{
     background-color: #1abc9c;
+    border: none;
 }
 
 .text-green{
@@ -85,6 +86,7 @@ h2{
 .lower-footer{
     background-color: #2c3e50;
 }
+
 
 nav{
     background-color: #2c3e50;
